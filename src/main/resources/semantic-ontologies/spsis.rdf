@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:spsis="https://github.com/SPSCommerce/semantic-network/blob/master/Other%20Ontologies/spsis.rdf#"
+	xmlns:dc="http://dublincore.org/2012/06/14/dcelements.rdf#"
+	xmlns:dct="http://purl.org/dc/terms#"
+	xmlns:dqm="http://purl.org/dqm-vocabulary/v1/dqm#"
+	xmlns:foaf="http://xmlns.com/foaf/spec/index.rdf#"
+  xmlns:math="http://www.w3.org/1998/Math/MathML"
+	xmlns:obo="http://purl.obolibrary.org/obo/pato#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:pto="http://www.productontology.org/#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:sorg="http://schema.org"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:sbml="http://www.sbml.org/sbml/level1"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+	xmlns:spss="https://github.com/mara1nglezakis/assortment-next-generation-standard/blob/master/spsSchemaGit.xml"
+  xmlns:spsxs="http://www.spscommerce.com/RSX/SPSSchemaDefinition#"
+	xmlns:wbx="http://www.webservicex.net"
+	xmlns:xs="http://www.w3.org/2001/XMLSchema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xml:base="https://github.com/SPSCommerce/semantic-network/blob/master/Other%20Ontologies/spsis.rdf#">
+<rdf:Description rdf:about="http://anyURI.org">
+<dc:title spss:txt="SPS Item Service Ontology"/>
+<dc:creator rdf:parseType="Resource">
+			<foaf:givenName rdf:value="Mara"/>
+			<foaf:familyName rdf:value="Inglezakis"/>
+		</dc:creator>
+		<dc:description spss:txt="An ontology which describes entities that pass through SPS Commerce's Item Service."/>
+</rdf:Description>
+
+<owl:Class rdf:ID="Affordance" rdfs:label="Affordance" rdfs:comment="Indicate, describe, and govern the ways and means that enable work."/>
+<owl:Class rdf:ID="Entity" rdfs:label="Entity" rdfs:comment="Describes actors and agents, incorporated or otherwise." owl:sameAs="foaf#Agent"/>
+<owl:Class rdf:ID="Job" rdfs:label="Job" rdfs:comment="Describes what a thing is capable of doing." rdfs:subClassOf="spsis#Affordance" owl:disjointWith="spsis#UseRules"/>
+<owl:Class rdf:ID="PhysicalQuality" rdfs:label="Physical Quality" rdfs:comment="Indicate, describe, and govern the intrinsic physical qualia of things." rdfs:subClassOf="spsis#Affordance"/>
+<owl:Class rdf:ID="UseRules" rdfs:label="Use Rules" rdfs:comment="Indicate and describe rules natural or fabricated that govern the use of things." rdfs:subClassOf="spsis#Affordance" owl:disjointWith="spsis#Job"/>
+<owl:Class rdf:ID="URI" rdfs:label="URI" rdfs:comment="Unique resource identifier. Any instance of URI that always applies to a particular object or idea." rdfs:subClassOf="rdf#resource"/>
+</rdf:RDF>
