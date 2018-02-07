@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rsxml="https://github.com/SPSCommerce/semantic-network/blob/master/toys/rsxmlToy.rdf#">
+    <rdf:Description rdf:about="https://dev.spscommerce.com/semantic-network/item/companyid/753/upc/883202867226">
+        <rsxml:Classification>521</rsxml:Classification>
+        <rsxml:ClassificationDescription>VARSITY FOOTWEAR-HERITAGE</rsxml:ClassificationDescription>
+        <rsxml:VendorPartNumber>61854</rsxml:VendorPartNumber>
+        <rsxml:ConsumerPackageCode>883202867226</rsxml:ConsumerPackageCode>
+        <rsxml:ProductSizeDescription>1  M</rsxml:ProductSizeDescription>
+        <rsxml:ProductColorDescription>BLACK/WHITE</rsxml:ProductColorDescription>
+        <rsxml:MaintenanceTypeCode>02</rsxml:MaintenanceTypeCode>
+        <rsxml:NRFColorCode>002</rsxml:NRFColorCode>
+        <rsxml:NRFSizeCode>50155</rsxml:NRFSizeCode>
+
+        <!-- potential blanknode options -->
+        <rsxml:Brand>K-SWISS</rsxml:Brand>
+
+
+        <rsxml:UnitCostPrice rdf:type="rsxml:DollarsUS" rdf:value="22"/>
+
+
+        <rsxml:ManufacturersSuggestedRetailPrice rdf:type="rsxml:DollarsUS" rdf:value="40"/>
+        <rsxml:PriceTypeIDCode rdf:type="rsxml:DollarsUS" rsxml:qual="IMP" rdf:value="0.01"/>
+        <rsxml:ProductDescriptionCode>08</rsxml:ProductDescriptionCode>
+        <rsxml:ProductDescription>VARSITY (BOYS) GOWBURY</rsxml:ProductDescription>
+        <rsxml:AddressName rdf:type="rsxml:ManufacturerofGoods" rdf:value="K-SWISS"/>
+        <rsxml:CommodityCode rdf:type="rsxml:HarmonizedSystemBasedScheduleB" rdf:value="6403999041"/>
+
+    </rdf:Description>
+</rdf:RDF>

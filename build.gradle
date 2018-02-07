@@ -13,7 +13,12 @@ repositories {
 dependencies {
     compile 'com.hermit-reasoner:org.semanticweb.hermit:1.3.8.4'
     compile 'org.eclipse.rdf4j:rdf4j-runtime:2.2.4'
-//    compile 'org.eclipse.rdf4j:rdf4j-repository:2.2.4'
+    compile 'commons-cli:commons-cli:1.4'
+    compile 'org.springframework:spring-context:5.0.0.RELEASE'
+    compile 'ch.qos.logback:logback-core:1.2.3'
+    compile 'ch.qos.logback:logback-classic:1.2.3'
+    compile 'org.slf4j:slf4j-api:1.7.25'
+    compile 'org.json:org.json:chargebee-1.0'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
@@ -21,3 +26,13 @@ dependencies {
 
 // Define the main class for the application
 mainClassName = 'com.elmaanum.hermit.App'
+jar {
+    from { configurations.compile.collect {
+        (it.getName().endsWith("jar") || it.getName().endsWith("zip")) ? zipTree(it) : it  }
+    }
+    manifest {
+        attributes(
+                "Class-Path": configurations.compile.collect { it.getName() }.join(' '),
+                "Main-Class": mainClassName)
+    }
+}

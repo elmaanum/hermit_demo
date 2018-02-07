@@ -1,0 +1,24 @@
+{
+  "LOCAL_GIT_ONTOLOGIES_MAP": {
+    "rsxOntoDefaults": "../../Github/semantic-network/Semantic RSX/RSX-RDF/rsxOntoDefaults.rdf",
+    "rsxml": "../../Github/semantic-network/Semantic RSX/RSX-RDF/rsxml.rdf",
+    "av7c": "../../Github/semantic-network/Semantic Assortment/av7c.rdf",
+    "av7": "../../Github/semantic-network/Semantic Assortment/av7.rdf"
+  },
+  "BASE_URI_MAP": {
+    "spsrf": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsxOntoDefaults.rdf#",
+    "rsxml": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsxml.rdf#",
+    "av7c": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20Assortment/av7c.rdf#",
+    "av7": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20Assortment/av7.rdf#",
+    "rsx77": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx77xDefaults.rdf#",
+    "rsx76": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx76xDefaults.rdf#"
+  },
+  "TOY_BASE_URI_MAP": {
+    "spsrf": "https://github.com/SPSCommerce/semantic-network/blob/master/toys/rsxOntoDefaultsToy.rdf#",
+    "rsxml": "https://github.com/SPSCommerce/semantic-network/blob/master/toys/rsxmlToy.rdf#",
+    "av7c": "https://github.com/SPSCommerce/semantic-network/blob/master/toys/av7cToy.rdf#",
+    "av7": "https://github.com/SPSCommerce/semantic-network/blob/master/toys/av7Toy.rdf#",
+    "rsx77": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx77xDefaults.rdf#",
+    "rsx76": "https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx76xDefaults.rdf#"
+  }
+}

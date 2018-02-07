@@ -9,8 +9,14 @@ public class App {
         return "Hello world.";
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         System.out.println(new App().getGreeting());
-        new RDF4J().queryRemoteRepos("string", "string", "string");
+        // String[] rdf4jargs = new String[2];
+        // rdf4jargs[0] = "dev";
+        // rdf4jargs[1] = "recreate";
+
+        new RDF4J().main(args);
+
+
     }
 }

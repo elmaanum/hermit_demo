@@ -1,0 +1,22 @@
+{
+  "queries": [
+    {
+      "query": "SELECT ?subject ?predicate ?object WHERE { ?subject ?predicate ?object FILTER(contains(str(?predicate), \"rsxml\")) FILTER(!contains(str(?subject), \"node\")) FILTER(!contains(str(?object), \"companyid/753\"))}",
+      "bindString": "",
+      "bindValue": ""
+    },
+    {
+      "query": "SELECT ?object2 WHERE { ?subject2 <http://www.w3.org/2004/02/skos/core#closeMatch> ?object2}",
+      "bindString": "subject2",
+      "bindValue": "predicate"
+    },
+    {
+      "query": "SELECT ?predicate3 ?object3 WHERE { ?subject3 ?predicate3 ?object3 FILTER(contains(str(?predicate3), \"closeMatch\") || contains(str(?predicate3), \"sameAs\")  || contains(str(?predicate3), \"equivalentClass\"))}",
+      "bindString": "subject3",
+      "bindValue": "object2"
+    }
+  ],
+  "returnSubject": "subject",
+  "returnPredicate": "object3",
+  "returnObject": "object"
+}

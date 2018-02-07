@@ -1,0 +1,5 @@
+Successfully added: ../../GitHub/semantic-network/toys/rsxOntoDefaultsToy.rdf
+Successfully added: ../../GitHub/semantic-network/toys/av7Toy.rdf
+Successfully added: ../../GitHub/semantic-network/toys/k_swiss_8250732044.rdf
+Successfully added: ../../GitHub/semantic-network/toys/av7cToy.rdf
+Successfully added: ../../GitHub/semantic-network/toys/rsxmlToy.rdf

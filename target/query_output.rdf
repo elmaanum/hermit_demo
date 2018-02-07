@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:spsrf="https://github.com/SPSCommerce/semantic-network/blob/master/toys/rsxOntoDefaultsToy.rdf#"
+	xmlns:av7="https://github.com/SPSCommerce/semantic-network/blob/master/toys/av7Toy.rdf#"
+	xmlns:rsxml="https://github.com/SPSCommerce/semantic-network/blob/master/toys/rsxmlToy.rdf#"
+	xmlns:rsx76="https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx76xDefaults.rdf#"
+	xmlns:rsx77="https://github.com/SPSCommerce/semantic-network/blob/master/Semantic%20RSX/RSX-RDF/rsx77xDefaults.rdf#"
+	xmlns:av7c="https://github.com/SPSCommerce/semantic-network/blob/master/toys/av7cToy.rdf#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+
+<rdf:Description rdf:about="https://dev.spscommerce.com/semantic-network/item/companyid/753/upc/883202867226">
+	<rsx76:brandBRN>K-SWISS</rsx76:brandBRN>
+	<rsx77:brandBRN>K-SWISS</rsx77:brandBRN>
+	<av7c:brand>K-SWISS</av7c:brand>
+	<rsxml:Brand>K-SWISS</rsxml:Brand>
+	<rsx77:Classification>521</rsx77:Classification>
+	<av7:selectionCode>521</av7:selectionCode>
+	<rsxml:Classification>521</rsxml:Classification>
+	<rsx77:ClassificationDescription>VARSITY FOOTWEAR-HERITAGE</rsx77:ClassificationDescription>
+	<av7:selectionCodeDescription>VARSITY FOOTWEAR-HERITAGE</av7:selectionCodeDescription>
+	<rsxml:ClassificationDescription>VARSITY FOOTWEAR-HERITAGE</rsxml:ClassificationDescription>
+	<rsx76:ConsumerPackageCode>883202867226</rsx76:ConsumerPackageCode>
+	<rsx77:ConsumerPackageCode>883202867226</rsx77:ConsumerPackageCode>
+	<av7:upc>883202867226</av7:upc>
+	<rsxml:ConsumerPackageCode>883202867226</rsxml:ConsumerPackageCode>
+	<rsx76:MaintenanceTypeCode>02</rsx76:MaintenanceTypeCode>
+	<rsx77:MaintenanceTypeCode>02</rsx77:MaintenanceTypeCode>
+	<av7:maintainenceTypeCode>02</av7:maintainenceTypeCode>
+	<rsxml:MaintainenceTypeCode>02</rsxml:MaintainenceTypeCode>
+	<rsx76:NRFColorCode>002</rsx76:NRFColorCode>
+	<rsx77:NRFColorCode>002</rsx77:NRFColorCode>
+	<av7:nrfColorCode>002</av7:nrfColorCode>
+	<rsxml:NRFColorCode>002</rsxml:NRFColorCode>
+	<rsx76:NRFSizeCode>50155</rsx76:NRFSizeCode>
+	<rsx77:NRFSizeCode>50155</rsx77:NRFSizeCode>
+	<av7:nrfSizeCode>50155</av7:nrfSizeCode>
+	<rsxml:NRFSizeCode>50155</rsxml:NRFSizeCode>
+	<rsx76:ProductColorDescription>BLACK/WHITE</rsx76:ProductColorDescription>
+	<rsx77:ProductColorDescription>BLACK/WHITE</rsx77:ProductColorDescription>
+	<av7:productColorDescription>BLACK/WHITE</av7:productColorDescription>
+	<rsxml:ProductColorDescription>BLACK/WHITE</rsxml:ProductColorDescription>
+	<rsx76:ProductDescription>VARSITY (BOYS) GOWBURY</rsx76:ProductDescription>
+	<rsx77:ProductDescription>VARSITY (BOYS) GOWBURY</rsx77:ProductDescription>
+	<rsx77:ProductDescriptionCode>08</rsx77:ProductDescriptionCode>
+	<rsx76:ProductSizeDescription>1  M</rsx76:ProductSizeDescription>
+	<rsx77:ProductSizeDescription>1  M</rsx77:ProductSizeDescription>
+	<av7:productSizeDescription>1  M</av7:productSizeDescription>
+	<rsxml:ProductSizeDescription>1  M</rsxml:ProductSizeDescription>
+	<rsx76:VendorPartNumber>61854</rsx76:VendorPartNumber>
+	<rsx77:VendorPartNumber>61854</rsx77:VendorPartNumber>
+	<av7:vendorPartNumber>61854</av7:vendorPartNumber>
+	<rsxml:VendorPartNumber>61854</rsxml:VendorPartNumber>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://dev.spscommerce.com/semantic-network/item/companyid/753/upc/883202867271">
+	<rsx76:brandBRN>K-SWISS</rsx76:brandBRN>
+	<rsx77:brandBRN>K-SWISS</rsx77:brandBRN>
+	<av7c:brand>K-SWISS</av7c:brand>
+	<rsxml:Brand>K-SWISS</rsxml:Brand>
+	<rsx77:Classification>521</rsx77:Classification>
+	<av7:selectionCode>521</av7:selectionCode>
+	<rsxml:Classification>521</rsxml:Classification>
+	<rsx77:ClassificationDescription>VARSITY FOOTWEAR-HERITAGE</rsx77:ClassificationDescription>
+	<av7:selectionCodeDescription>VARSITY FOOTWEAR-HERITAGE</av7:selectionCodeDescription>
+	<rsxml:ClassificationDescription>VARSITY FOOTWEAR-HERITAGE</rsxml:ClassificationDescription>
+	<rsx76:ConsumerPackageCode>883202867271</rsx76:ConsumerPackageCode>
+	<rsx77:ConsumerPackageCode>883202867271</rsx77:ConsumerPackageCode>
+	<av7:upc>883202867271</av7:upc>
+	<rsxml:ConsumerPackageCode>883202867271</rsxml:ConsumerPackageCode>
+	<rsx76:MaintenanceTypeCode>02</rsx76:MaintenanceTypeCode>
+	<rsx77:MaintenanceTypeCode>02</rsx77:MaintenanceTypeCode>
+	<av7:maintainenceTypeCode>02</av7:maintainenceTypeCode>
+	<rsxml:MaintainenceTypeCode>02</rsxml:MaintainenceTypeCode>
+	<rsx76:NRFColorCode>001</rsx76:NRFColorCode>
+	<rsx77:NRFColorCode>001</rsx77:NRFColorCode>
+	<av7:nrfColorCode>001</av7:nrfColorCode>
+	<rsxml:NRFColorCode>001</rsxml:NRFColorCode>
+	<rsx76:NRFSizeCode>50635</rsx76:NRFSizeCode>
+	<rsx77:NRFSizeCode>50635</rsx77:NRFSizeCode>
+	<av7:nrfSizeCode>50635</av7:nrfSizeCode>
+	<rsxml:NRFSizeCode>50635</rsxml:NRFSizeCode>
+	<rsx76:ProductColorDescription>BLACK/WHITE</rsx76:ProductColorDescription>
+	<rsx77:ProductColorDescription>BLACK/WHITE</rsx77:ProductColorDescription>
+	<av7:productColorDescription>BLACK/WHITE</av7:productColorDescription>
+	<rsxml:ProductColorDescription>BLACK/WHITE</rsxml:ProductColorDescription>
+	<rsx76:ProductDescription>VARSITY (GIRLS) GOWBURY</rsx76:ProductDescription>
+	<rsx77:ProductDescription>VARSITY (GIRLS) GOWBURY</rsx77:ProductDescription>
+	<rsx77:ProductDescriptionCode>08</rsx77:ProductDescriptionCode>
+	<rsx76:ProductSizeDescription>9  F</rsx76:ProductSizeDescription>
+	<rsx77:ProductSizeDescription>9  F</rsx77:ProductSizeDescription>
+	<av7:productSizeDescription>9  F</av7:productSizeDescription>
+	<rsxml:ProductSizeDescription>9  F</rsxml:ProductSizeDescription>
+	<rsx76:VendorPartNumber>61854</rsx76:VendorPartNumber>
+	<rsx77:VendorPartNumber>61854</rsx77:VendorPartNumber>
+	<av7:vendorPartNumber>61854</av7:vendorPartNumber>
+	<rsxml:VendorPartNumber>61854</rsxml:VendorPartNumber>
+</rdf:Description>
+
+</rdf:RDF>
